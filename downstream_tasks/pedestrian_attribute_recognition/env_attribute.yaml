@@ -1,0 +1,14 @@
+name: env_attribute
+dependencies: 
+  - python==3.7.12
+  - pytorch==1.7.1
+  - torchvision==0.8.2
+  - cudatoolkit==11.0.3  # or 10.1.243
+  - pip
+  - pip:
+    - timm==0.3.2
+    - opencv-python==4.7
+    - visdom
+    - easydict
+    - scikit-learn
+    - inplace_abn

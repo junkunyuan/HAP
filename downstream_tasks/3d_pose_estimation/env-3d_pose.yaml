@@ -1,0 +1,11 @@
+name: env_3d_pose
+dependencies: 
+  - python==3.9.12
+  - pytorch==1.12.1
+  - torchvision==0.13.1
+  - cudatoolkit==11.3.1  # or 10.2.89
+  - yacs==0.1.8
+  - tensorboard==2.10.0
+  - pip
+  - pip:
+    - timm==0.5.4

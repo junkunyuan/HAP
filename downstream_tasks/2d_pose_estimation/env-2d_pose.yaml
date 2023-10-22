@@ -1,0 +1,10 @@
+name: env_2d_pose
+dependencies: 
+  - python==3.8.16
+  - pytorch==1.9.1
+  - torchvision==0.10.0
+  - cudatoolkit==11.1.1  # or 10.2.89
+  - pip
+  - pip:
+    - timm==0.4.9
+    - opencv-python==4.7

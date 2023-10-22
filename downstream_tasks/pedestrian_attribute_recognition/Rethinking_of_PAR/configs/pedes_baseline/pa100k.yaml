@@ -1,0 +1,54 @@
+NAME: 'default'
+
+DATASET:
+  TYPE: 'pedes'
+  NAME: 'PA100k'
+  TRAIN_SPLIT: 'trainval'
+  VAL_SPLIT: 'test'
+  ZERO_SHOT: False
+  LABEL: 'eval'
+  HEIGHT: 256
+  WIDTH: 192
+
+RELOAD:
+  TYPE: False
+  NAME: 'backbone'
+
+BACKBONE:
+  # TYPE: 'resnet50'
+#  TYPE: 'bninception'
+#  TYPE: 'tresnetM'
+#  TYPE: 'swin_s'
+#  TYPE: 'vit_s'
+ TYPE: 'vit_b'
+
+CLASSIFIER:
+  NAME: 'linear'
+  POOLING: 'avg'
+  SCALE: 1
+  BN: False
+
+LOSS:
+  TYPE: 'bceloss'
+  LOSS_WEIGHT: [1]
+  SAMPLE_WEIGHT: 'weight'
+
+TRAIN:
+  CLIP_GRAD: True
+  BATCH_SIZE: 8  # original: 64
+  OPTIMIZER:
+    TYPE: 'adamw'  # original: adam
+    WEIGHT_DECAY: 5e-4
+  LR_SCHEDULER:
+    TYPE: 'warmup_cosine'  # original: plateau
+    LR_FT: 1.7e-4  # original: 1e-4
+    LR_NEW: 1.7e-4  # original: 1e-4
+  EMA:
+    ENABLE: True
+  MAX_EPOCH: 55  # original: 10
+
+METRIC:
+  TYPE: 'pedestrian'
+
+VIS:
+  CAM: 'valid'

@@ -1,0 +1,13 @@
+name: env_t2i_person_reid
+dependencies:
+  - python==3.8.13
+  - pytorch==1.7.1
+  - torchvision==0.9.0
+  - cudatoolkit==11.0
+  - numpy==1.19.5
+  - tensorboard==2.9.1
+  - transformers==4.2.1
+  - pip
+  - pip:
+    - timm==0.5.4
+    - opencv-python==4.5.5.64
