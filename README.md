@@ -16,7 +16,9 @@ This repository contains the implementation code for paper:
 
 **HAP: Structure-Aware Masked Image Modeling for Human-Centric Perception**
 
-*Conference on Neural Information Processing Systems (NeurIPS) 2023*
+*Advances in Neural Information Processing Systems (NeurIPS) 2023*
+
+[[arXiv](https://arxiv.org/abs/2310.20695)] &#8194; [[project page](https://zhangxinyu-xyz.github.io/hap.github.io/)]
 
   HAP is the first masked image modeling framework for human-centric pre-training. It leverages body structure-aware training to learn general human visual representations. It achieves SOTA performance across several human-related benchmarks. 
 
@@ -44,7 +46,7 @@ root
 ## 🛠️ Environment
 Conda is recommended for configuring the environment:
 ```bash
-conda env create -f environment-hap.yaml && conda activate env_hap
+conda env create -f env-hap.yaml && conda activate env_hap
 ```
 
 ## 🚀 Get Started
@@ -154,6 +156,17 @@ We acknowledge the following open source projects.
 - Dataset: &#8194; [LUPerson](https://github.com/DengpanFu/LUPerson) &#8194; [TransReID-SSL](https://github.com/damo-cv/TransReID-SSL) &#8194; [ViTPose](https://github.com/ViTAE-Transformer/ViTPose) &#8194;
 - Downstream evaluation: &#8194; [MALE](https://github.com/YanzuoLu/MALE) &#8194; [ViTPose](https://github.com/ViTAE-Transformer/ViTPose) &#8194; [mmcv](https://github.com/open-mmlab/mmcv)  &#8194; [mmpose](https://github.com/open-mmlab/mmpose) &#8194;  [Rethinking_of_PAR](https://github.com/valencebond/Rethinking_of_PAR) &#8194; [LGUR](https://github.com/ZhiyinShao-H/LGUR) &#8194; [3DCrowdNet](https://github.com/hongsukchoi/3DCrowdNet_RELEASE)
 - Else: &#8194; [Swin](https://github.com/microsoft/Swin-Transformer) &#8194;
+
+## Citation
+
+```bash
+@article{yuan2023hap,
+  title={HAP: Structure-Aware Masked Image Modeling for Human-Centric Perception},
+  author={Yuan, Junkun and Zhang, Xinyu and Zhou, Hao and Wang, Jian and Qiu, Zhongwei and Shao, Zhiyin and Zhang, Shaofeng and Long, Sifan and Kuang, Kun and Yao, Kun and others},
+  journal={arXiv preprint arXiv:2310.20695},
+  year={2023}
+}
+```
 
 ## 🤝 Contribute & Contact
 
