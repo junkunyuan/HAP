@@ -9,6 +9,7 @@
   - [🚀 Get Started](#-get-started)
   - [🏆 Results](#-results)
   - [💗 Acknowledgement](#-acknowledgement)
+  - [✅ Citation](#-citation)
   - [🤝 Contribute \& Contact](#-contribute--contact)
 
 ## 📋 Introduction
@@ -157,7 +158,7 @@ We acknowledge the following open source projects.
 - Downstream evaluation: &#8194; [MALE](https://github.com/YanzuoLu/MALE) &#8194; [ViTPose](https://github.com/ViTAE-Transformer/ViTPose) &#8194; [mmcv](https://github.com/open-mmlab/mmcv)  &#8194; [mmpose](https://github.com/open-mmlab/mmpose) &#8194;  [Rethinking_of_PAR](https://github.com/valencebond/Rethinking_of_PAR) &#8194; [LGUR](https://github.com/ZhiyinShao-H/LGUR) &#8194; [3DCrowdNet](https://github.com/hongsukchoi/3DCrowdNet_RELEASE)
 - Else: &#8194; [Swin](https://github.com/microsoft/Swin-Transformer) &#8194;
 
-## Citation
+## ✅ Citation
 
 ```bash
 @article{yuan2023hap,
